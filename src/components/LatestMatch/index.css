@@ -1,0 +1,155 @@
+/* Write your CSS here */
+.latest-match-container {
+}
+.latest-match-heading {
+  font-size: 20px;
+}
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+}
+.team-result-logo-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team-result-details {
+  width: 70%;
+}
+.competing-team {
+  font-size: 20px;
+  font-weight: 600;
+}
+.date {
+  font-size: 20px;
+  font-weight: 600;
+}
+.venue {
+  font-size: 13px;
+}
+.result {
+  font-size: 13px;
+}
+.team-logo-sm {
+  height: 70px;
+  width: 60px;
+}
+.team-logo-lg {
+  display: none;
+}
+.line {
+  border: 1px solid #475569;
+  width: 100%;
+}
+.team-additional-details {
+  width: 70%;
+}
+.label-value {
+}
+.first-innings-label {
+  font-size: 15px;
+}
+.first-innings-value {
+  font-size: 12px;
+}
+.second-innings-label {
+  font-size: 15px;
+}
+.second-innings-value {
+  font-size: 12px;
+}
+.man-of-the-match-label {
+  font-size: 15px;
+}
+.man-of-the-match-value {
+  font-size: 12px;
+}
+.umpires-label {
+  font-size: 15px;
+}
+.umpires-value {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+  }
+  .latest-match-heading {
+    font-size: 25px;
+  }
+  .latest-match-card {
+    background-color: #0f172a;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .team-result-logo-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .team-result-details {
+    width: 100%;
+  }
+  .competing-team {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .date {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .venue {
+    font-size: 18px;
+  }
+  .result {
+    font-size: 18px;
+  }
+  .team-logo-lg {
+    height: 150px;
+    width: 110px;
+    margin-left: 100px;
+    display: inline;
+  }
+  .team-logo-sm {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .team-additional-details {
+    text-align: right;
+    width: 100%;
+  }
+  .label-value {
+  }
+  .first-innings-label {
+    font-size: 22px;
+  }
+  .first-innings-value {
+    font-size: 18px;
+  }
+  .second-innings-label {
+    font-size: 22px;
+  }
+  .second-innings-value {
+    font-size: 18px;
+  }
+  .man-of-the-match-label {
+    font-size: 22px;
+  }
+  .man-of-the-match-value {
+    font-size: 18px;
+  }
+  .umpires-label {
+    font-size: 22px;
+  }
+  .umpires-value {
+    font-size: 18px;
+  }
+}
